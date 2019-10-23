@@ -1,4 +1,6 @@
 ---
+layout: post
+title: example blog post 6
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

@@ -1,4 +1,6 @@
 ---
+layout: post
+title: example blog post 7
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog Page
+title: example blog post 8
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec 

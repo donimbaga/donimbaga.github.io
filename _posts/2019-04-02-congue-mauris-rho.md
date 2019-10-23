@@ -1,4 +1,9 @@
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+---
+layout: post
+title: example blog post 2
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci 
 nulla pellentesque dignissim enim sit amet venenatis. Condimentum 
 lacinia quis vel eros donec ac odio. Amet risus nullam eget felis 
@@ -11,4 +16,4 @@ morbi tristique. Scelerisque viverra mauris in aliquam sem.
 Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras 
 fermentum. Quis enim lobortis scelerisque fermentum. Donec 
 enim diam vulputate ut pharetra sit amet. Molestie ac feugiat sed 
-lectus. Sodales neque sodales ut etiam sit amet nisl purus.</p>
+lectus. Sodales neque sodales ut etiam sit amet nisl purus.

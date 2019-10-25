@@ -38,6 +38,8 @@ a:link {
   text-decoration: none;
 }
 
+/**** Header ****/
+
 .header {
   display: flex;
   justify-content: flex-start;
@@ -59,25 +61,12 @@ a:link {
 }	
 
 
-footer {
-  width: 100%;
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  font-weight: 100;
-}
-
 .fa {
   color: black;
 }
 
 .date-tag {
   color: #927a7a
-}
-
-#footer-wrapper {
-  display: flex;
-  flex-direction: column;
 }
 
 .social-media-icons {
@@ -89,14 +78,6 @@ footer {
 
 .social-media-icons > li {
   margin: 0 20px 0 0; 
-}
-
-.footer-tagline {
-  text-align: center;
-}
-
-.footer-tagline > h6 {
-  font-weight: 100;
 }
 
 .post-title {
@@ -118,7 +99,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -129,3 +110,41 @@ footer {
 .main {
   margin: 0 0 10em 0;
 }
+
+.article-post {
+  width: 100%;
+}
+
+.article-post > h3 {
+  margin: 10px 0 10px 0;
+}
+
+.post-date {
+  margin: 10px 0 10px 0;
+}
+
+/**** Footer ****/
+
+#footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  border-top: 2px solid #ebebeb;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  margin-top: 20vh;
+}
+
+.footer-tagline {
+  text-align: center;
+}
+
+.footer-tagline > h6 {
+  font-weight: 100;
+}
+

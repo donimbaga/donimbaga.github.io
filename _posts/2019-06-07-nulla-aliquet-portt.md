@@ -1,6 +1,6 @@
 ---
 layout: post
-title: example blog post 3
+title: example blog post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio

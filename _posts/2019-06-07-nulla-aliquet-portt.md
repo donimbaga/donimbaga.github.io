@@ -1,6 +1,6 @@
 ---
 layout: post
-title: example blog post
+title: Example Blog Post
 ---
 
 Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh

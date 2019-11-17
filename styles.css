@@ -92,11 +92,15 @@ a:link {
   align-items: flex-start;
   width: 60%;
   margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  padding-bottom: 100px;
 }
 
 .main {
   width: 100%;
-  height: 55vh;
+  height: 60vh;
 }
 
 .header-logo> a {
@@ -116,6 +120,8 @@ footer {
   display: flex;
   justify-content: center;
   font-weight: 100;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-tagline {
@@ -131,6 +137,8 @@ footer {
 .article-post {
   text-align: justify;
   line-height: 1.6em;
+  font-size: 1.2em;
+  width: 100%;
 }
 
 .article-post > p {

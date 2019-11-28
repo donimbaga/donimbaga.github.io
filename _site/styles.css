@@ -27,6 +27,15 @@
   list-style: none;
 }
 
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -92,9 +101,9 @@ a:link {
   align-items: flex-start;
   width: 60%;
   margin: 0 auto;
-  position: relative;
   min-height: 100vh;
   overflow: hidden;
+  position: relative;
   padding-bottom: 100px;
 }
 
@@ -121,8 +130,7 @@ footer {
   justify-content: center;
   font-weight: 100;
   position: absolute;
-  bottom: 0;
-  padding-bottom: 10px;
+  bottom: 5vh;
 }
 
 .footer-tagline {
@@ -173,7 +181,7 @@ footer {
   }
 
   footer {
-    height: 30vh;
+    //height: 30vh;
   }
   
   .social-media-icons {

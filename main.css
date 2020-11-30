@@ -1,0 +1,27 @@
+
+body {
+  background-color: #dadadacf;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  border: 1px solid red;
+  width: 70%;
+  border-top: 3px solid #bbbbbb;
+  border-bottom: 3px solid #bbbbbb;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  background-color: #ffdfe5;
+  border: 1px solid #bbccb4;
+  border-radius: 50%;
+}

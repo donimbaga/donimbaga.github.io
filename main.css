@@ -41,13 +41,13 @@ main {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .wrapper {
     width: 90vw;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 769px) {
   .wrapper {
     width: 80vw;
   }

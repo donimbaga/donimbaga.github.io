@@ -1,4 +1,11 @@
 
+@font-face {
+  font-family: "Daniel";
+  src: url("Daniel-Black-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -48,10 +55,14 @@ ul {
 }
 
 .logo span {
-  color: #7d7b7b;
+  font-family: "Daniel", sans-serif;  
+  font-weight: 900;
+  color: #a0a0a0;
 }
 
 .lead-pr {
+  font-size: 130%;
+  line-height: 50%;
   text-align: center;
 }
 

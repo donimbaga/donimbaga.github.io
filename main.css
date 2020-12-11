@@ -35,8 +35,14 @@ header {
 }
 
 main {
+  border: 1px solid red;
+  padding: 1%;
   width: 100%;
   height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 ul {
@@ -61,17 +67,27 @@ ul {
 }
 
 .lead-pr {
+  border: 1px solid red;
   font-size: 130%;
   line-height: 50%;
   text-align: center;
+  width: 100%;
 }
 
 .lead-pr {
   color: #5f5f5f;
 }
 
+.smi {
+  border: 1px solid red;
+}
+
 .smi > ul > li {
   display: inline-block;
+}
+
+.get-email {
+  border: 1px solid red;
 }
 
 footer {

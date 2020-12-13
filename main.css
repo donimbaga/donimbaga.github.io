@@ -57,20 +57,23 @@ ul {
 .logo {
   background-color: #f7cbf1;
   border: 1px solid #a0a0a0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 50%;
-  height: auto;
-  padding: 10%;
-  border-radius: 50%;
+  width: 25%;
+  height: 0;
+  padding-bottom: 25%;
+  border-radius: 100%;
 }
 
-.logo span {
+.logo-text {
   font-family: "Daniel", sans-serif;  
   font-weight: 900;
   color: #a0a0a0;
+  width: 100%;
+  margin-top: -0.5em;
+  font-size: 75%;
+  padding-top: 50%;
+  text-align: center;
+  line-height: 1;
+  float: left;
 }
 
 .lead-pr {

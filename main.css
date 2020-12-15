@@ -147,27 +147,26 @@ footer ul li a {
 
 @media only screen and (min-width: 0px) and (max-width: 320px) {
   .logo {
-    background-color: #f7cbf1;
-    width: 38vw;
+    width: 35vw;
     height: 0;
-    padding-bottom: 38vw;
+    padding-bottom: 35vw;
   }
 
   .logo-txt {
-    font-size: 5vw;
+    font-size: 4.7vw;
   }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 425px) {
   
   .logo {
-    width: 28vw;
+    width: 25vw;
     height: 0;
-    padding-bottom: 28vw;
+    padding-bottom: 25vw;
   }
 
   .logo-txt {
-    font-size: 4.0vw;
+    font-size: 3.2vw;
   }
 
 }
@@ -201,21 +200,21 @@ footer ul li a {
 @media only screen and (min-width: 426px) and (max-width: 768px) {
 
   .logo {
-    width: 17vw;
+    width: 15vw;
     height: 0;
-    padding-bottom: 17vw;
+    padding-bottom: 15vw;
   }
 
   .logo-txt {
-    font-size: 2.2vw;
+    font-size: 2.0vw;
   }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .logo {
-    width: 12vw;
+    width: 11vw;
     height: 0;
-    padding-bottom: 12vw;
+    padding-bottom: 11vw;
   }
 
   .logo-txt {
@@ -225,12 +224,12 @@ footer ul li a {
 
 @media only screen and (min-width: 1025px) {
   .logo {
-    width: 12vw;
+    width: 9vw;
     height: 0;
-    padding-bottom: 12vw;
+    padding-bottom: 9vw;
   }
 
   .logo-txt {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
   }
 }

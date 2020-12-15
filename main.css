@@ -21,6 +21,7 @@ body {
 }
 
 .wrapper {
+  padding: 1%;
   width: 100vw;
   height: 100vh;
   background-color: #e4e4e4;
@@ -56,13 +57,10 @@ ul {
 .logo {
   background-color: #f7cbf1;
   border: 1px solid #a0a0a0;
-  width: 25%;
-  height: 0;
-  padding-bottom: 25%;
   border-radius: 100%;
 }
 
-.logo-text {
+.logo-txt {
   font-family: "Daniel", sans-serif;  
   font-weight: 900;
   color: #a0a0a0;
@@ -148,13 +146,29 @@ footer ul li a {
   color: black;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .logo {
+    background-color: #f7cbf1;
+    width: 38vw;
+    height: 0;
+    padding-bottom: 38vw;
+  }
+
+  .logo-txt {
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 425px) {
   
   .logo {
+    width: 30vw;
+    height: 0;
+    padding-bottom: 30vw;
   }
- 
-  .logo span {
-    font-size: 100%;
+
+  .logo-txt {
+    font-size: 4.0vw;
   }
 
   footer {

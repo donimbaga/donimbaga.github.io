@@ -129,11 +129,10 @@ ul {
 }
 
 .get-email button {
-  background-color: #dedede;
   background-color: inherit;
   border: none;
   outline: none;
-  color: inherit;
+  color: #5f5f5f;
   text-align: center;
   text-decoration: none;
 }

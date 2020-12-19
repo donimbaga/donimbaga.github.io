@@ -7,6 +7,9 @@ Layout
 
   main
 
+    'get-email'
+      when user click, email get revealed, after 1min email hides again
+
   footer
 
 Text

@@ -132,9 +132,18 @@ ul {
   background-color: #dedede;
   background-color: inherit;
   border: none;
+  outline: none;
   color: inherit;
   text-align: center;
   text-decoration: none;
+}
+
+.get-email p {
+  text-align: center;
+}
+
+.hide {
+  display: none; 
 }
 
 footer {

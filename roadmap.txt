@@ -8,7 +8,7 @@ Layout
   main
 
     'get-email'
-      when user click, email get revealed, after 1min email hides again
+      I need to apply some beautiful effect here
 
   footer
 

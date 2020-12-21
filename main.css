@@ -6,6 +6,13 @@
   font-weight: 900;
 }
 
+@font-face {
+  font-family: "Action Man";
+  src: url("Action_Man_Bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -73,6 +80,7 @@ ul {
 }
 
 .lead-pr {
+  font-family: "Action Man", sans-serif;
   border: 1px solid pink;
   color: #5f5f5f;
   font-size: 120%;

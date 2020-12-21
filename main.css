@@ -73,14 +73,12 @@ ul {
 }
 
 .lead-pr {
+  border: 1px solid pink;
+  color: #5f5f5f;
   font-size: 120%;
-  line-height: 50%;
+  line-height: 1.2;
   text-align: center;
   width: 100%;
-}
-
-.lead-pr {
-  color: #5f5f5f;
 }
 
 .smi {

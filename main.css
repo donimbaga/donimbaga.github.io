@@ -155,6 +155,10 @@ footer {
   height: 10%;
 }
 
+footer nav {
+  display: none;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 320px) {
   .logo {
     width: 35vw;
@@ -241,8 +245,32 @@ footer {
 
   nav ul li a {
     text-decoration: none;
-    color: #353535;
+    color: #2f2f2f;
+    font-weight: bold;
   }
+}
+
+@media only screen and (min-width: 426px) {
+  footer nav {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

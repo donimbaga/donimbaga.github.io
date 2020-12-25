@@ -174,20 +174,6 @@ footer nav {
 }
 
 
-@media only screen and (min-width: 321px) and (max-width: 425px) {
-  
-  .logo {
-    width: 25vw;
-    height: 0;
-    padding-bottom: 25vw;
-  }
-
-  .logo-txt {
-    font-size: 3.2vw;
-  }
-
-}
-
 @media only screen and (max-width: 425px) {
   footer {
     display: flex;
@@ -278,9 +264,6 @@ footer nav {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-}
-
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .logo {
     width: 11vw;
@@ -331,6 +314,33 @@ footer nav {
 }
 
 /** Mobile M **/
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  
+  .logo {
+    width: 30vw;
+    height: 0;
+    padding-bottom: 30vw;
+  }
+
+  .logo-txt {
+    font-size: 3.8vw;
+  }
+
+}
+
 /** Mobile L **/
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+}
+
 /** Tablet **/
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+}
+
 /** Laptop **/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/** Laptop L **/
+@media only screen and (min-width: 1024px) {
+}
+

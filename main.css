@@ -254,13 +254,13 @@ footer nav {
 
 @media only screen and (max-width: 320px) {
   .logo {
-    width: 35vw;
+    width: 32vw;
     height: 0;
-    padding-bottom: 35vw;
+    padding-bottom: 32vw;
   }
 
   .logo-txt {
-    font-size: 4.5vw;
+    font-size: 4.2vw;
   }
 }
 
@@ -282,13 +282,13 @@ footer nav {
 /** Mobile L **/
 @media only screen and (min-width: 376px) and (max-width: 425px) {
   .logo {
-    width: 36vw;
+    width: 28vw;
     height: 0;
-    padding-bottom: 36vw;
+    padding-bottom: 28vw;
   }
 
   .logo-txt {
-    font-size: 4.5vw;
+    font-size: 3.8vw;
   }
 
 }
@@ -329,13 +329,13 @@ footer nav {
   }
 
   .logo {
-    width: 22vw;
+    width: 15vw;
     height: 0;
-    padding-bottom: 22vw;
+    padding-bottom: 15vw;
   }
 
   .logo-txt {
-    font-size: 2.5vw;
+    font-size: 2.0vw;
   }
 
   .get-email {
@@ -344,7 +344,6 @@ footer nav {
 
 }
 
-}
 
 /** Laptop **/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

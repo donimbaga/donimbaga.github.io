@@ -145,7 +145,7 @@ ul {
   cursor: pointer;
 }
 
-.get-email button {
+.btn {
   background-color: inherit;
   border: none;
   outline: none;
@@ -255,13 +255,22 @@ footer nav {
 
 @media only screen and (max-width: 320px) {
   .logo {
-    width: 32vw;
+    width: 33vw;
     height: 0;
-    padding-bottom: 32vw;
+    padding-bottom: 33vw;
   }
 
   .logo-txt {
-    font-size: 4.2vw;
+    font-size: 4.3vw;
+  }
+
+  .lead-pr {
+    font-size: 5vw;
+    line-height: 1.5;
+  }
+ 
+  .btn {
+    font-size: 3.5vw; 
   }
 }
 
